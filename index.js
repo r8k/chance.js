@@ -1,11 +1,3 @@
-
-/**
- * `Expose` Chance
- * @type {CommonJs}
- */
-module.exports = Chance;
-
-
 /**
  * `Chance` Constructor
  * @param {Array} opts [containing weighted funcs]
@@ -65,3 +57,9 @@ Chance.prototype.next = function() {
         }
     };
 };
+
+/**
+ * `Expose` Chance
+ * @type {CommonJs}
+ */
+module.exports = Chance;
